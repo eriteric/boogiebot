@@ -1,0 +1,12 @@
+{
+  "name": "boogiebot",
+  "version": "0.0.1",
+  "description": "This bot has no time for your nonsense",
+  "main": "bot.js",
+  "author": "boogie",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "2.4.4",
+    "winston-loggly-bulk": "git+https://github.com/loggly/winston-loggly-bulk.git#3.x"
+  }
+}

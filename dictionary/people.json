@@ -1,11 +1,5 @@
 {
   "items": [
-    {"phrase": "boogie",
-      "responses": [
-        "Darth Boogie.",
-        "Boogie is your morpheus in the matrix fake news."
-      ]
-    },
     {"phrase": "kimmy",
       "responses": [
         "That is Dear Leader to you.",

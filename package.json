@@ -3,11 +3,27 @@
   "version": "0.0.1",
   "description": "This bot has no time for your nonsense",
   "main": "bot.js",
+  "scripts": {
+    "bot": "babel-node bot.js"
+  },
   "author": "boogie",
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "bufferutil": "^3.0.5",
+    "discord.js": "^11.4.2",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.4",
+    "node-opus": "^0.2.9",
+    "opusscript": "0.0.6",
+    "sodium": "^2.0.3",
     "underscore": "^1.9.1",
+    "uws": "^9.148.0",
     "winston": "2.4.4",
     "winston-loggly-bulk": "git+https://github.com/loggly/winston-loggly-bulk.git#3.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
   }
 }

@@ -19,14 +19,21 @@
     },
     {"phrase": "milano",
       "responses": [
-        "\"I won't apologize for calling MAGA hats the new KKK hood \" - AM",
-        "Heartbeat bill? How bout no movie money for you, Georgia."
+        "\"I won't apologize for calling MAGA hats the new KKK hood \" - Alyssa Milano",
+        "Heartbeat bill? How bout no movie money for you, Georgia.",
+        "\"I do apologize for calling myself a disabled, trans, immigrant person of color\" - Alyssa Milano",
+        "We can't assume Biden's guilt. Dat Kavanaugh tho..."
       ]
     },
     {"phrase": "biden",
       "responses": [
         "\"Make America Touchable Again\" - Joe B.",
         "*Uncle Joe approaches slowly from behind and whispers in your ear:* \"You shouldn't date until you're 30\""
+      ]
+    },
+    {"phrase": "muslim",
+      "responses": [
+        "Trump is planning to formally designate the Muslim Brotherhood as a terrorist organization. The US would be the 7th nation to designate the Islamist group as terrorists."
       ]
     }
   ]

@@ -23,7 +23,7 @@ logger.level = 'debug';
 
 // helpers
 // pick a random phrase from the array:
-function randomPhrase(textArray) {
+function randomResponse(textArray) {
   var randomIndex = Math.floor(Math.random()*textArray.length);
   return textArray[randomIndex];
 }
@@ -37,7 +37,7 @@ bot.on('message', msg => {
   function watchRespond(phrase, responses) {
     if(msg.author.bot === false) {
       if (msg.content.toLowerCase().includes(phrase)) {
-        msg.reply(randomPhrase(responses));
+        msg.reply(randomResponse(responses));
       }
     } else {
       // console.log("is a bot");

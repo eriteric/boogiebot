@@ -9,12 +9,20 @@
     {"phrase": "cnn",
       "responses": [
         "\"Antifa is a good cause\" -Christopher Cuomo",
-        "Real Funny News"
+        "Real Funny News",
+        "Trump is done. Done.",
+        "Impeachment any day now.",
+        "This is the beginning of the end",
+        "The walls are closing in on Trump",
+        "This is a tipping point. The day that everything changed. Same as yesterday.",
+        "Trump is in so much trouble.",
+        "Bombshell report: (insert anything)"
       ]
     },
     {"phrase": "nbc",
       "responses": [
-        "Rachel bears a striking resemblance to Gene Shalit"
+        "Rachel bears a striking resemblance to Gene Shalit",
+        "He's not going to be the nominee you know"
       ]
     },
     {"phrase": "milano",
@@ -41,7 +49,34 @@
         "Filling out forms is exhilarating!",
         "Sessions who?",
         "Spying is kind of a big deal you know",
-        "Barr: \"No collusion\", Media: \"Barr obviously colluded too\""
+        "Barr: \"No collusion\", Media: \"Barr obviously colluded too\"",
+        "Even Mueller agrees with him"
+      ]
+    },
+    {"phrase": "hanks",
+      "responses": [
+        "Just saw spaceships filled with dinosoars in red capes invade New York, soooo..."
+      ]
+    },
+    {"phrase": "obama",
+      "responses": [
+        "\"I continue to believe Donald Tump Trump will not be president\"",
+        "\"At least I will go down as a president\""
+      ]
+    },
+    {"phrase": "pelosi",
+      "responses": [
+        "\"Donald will not be president of the United States\" - Nancy Pelosi"
+      ]
+    },
+    {"phrase": "mark cuban",
+      "responses": [
+        "\"Donald doesn't do the work, he's lazy\" - Mark Cuban"
+      ]
+    },
+    {"phrase": "tcd",
+      "responses": [
+        "https://thecommondiscourse.com \n https://twitter.com/tcdtweet"
       ]
     }
   ]

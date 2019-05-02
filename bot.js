@@ -52,4 +52,28 @@ bot.on('message', msg => {
      });
   });
 
+  if(msg.content.toLowerCase().includes("tcd")) {
+    msg.channel.send({embed: {
+      color: 3447003,
+      title: "The Common Discourse:",
+      fields: [
+        { name: "Website", value: "https://thecommondiscourse.com", inline: false},
+        { name: "Twitter", value: "https://twitter.com/tcdtweet", inline: false}
+      ]
+    }
+    });
+  }//tcd
+
+  if(msg.content.toLowerCase().includes("tdb")) {
+    msg.channel.send({embed: {
+      color: 3447003,
+      title: "The Daily Boogie",
+      fields: [
+        { name: "Website", value: "https://thecommondiscourse.com", inline: false},
+        { name: "Twitter", value: "https://twitter.com/boogiebumper", inline: false}
+      ]
+    }
+    });
+  }//tcd
+
 });

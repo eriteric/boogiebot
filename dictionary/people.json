@@ -16,7 +16,8 @@
         "The walls are closing in on Trump",
         "This is a tipping point. The day that everything changed. Same as yesterday.",
         "Trump is in so much trouble.",
-        "Bombshell report: (insert anything)"
+        "Bombshell report: (insert anything)",
+        "\"Barr's answers were totally gobbeldeegook\" - CNN correspondent"
       ]
     },
     {"phrase": "nbc",
@@ -53,7 +54,7 @@
         "Even Mueller agrees with him"
       ]
     },
-    {"phrase": "hanks",
+    {"phrase": "tom hanks",
       "responses": [
         "Just saw spaceships filled with dinosoars in red capes invade New York, soooo..."
       ]
@@ -72,11 +73,6 @@
     {"phrase": "mark cuban",
       "responses": [
         "\"Donald doesn't do the work, he's lazy\" - Mark Cuban"
-      ]
-    },
-    {"phrase": "tcd",
-      "responses": [
-        "https://thecommondiscourse.com \n https://twitter.com/tcdtweet"
       ]
     }
   ]

@@ -5,6 +5,12 @@
 2. Install NPM
 3. Clone this repo `git clone https://github.com/eriteric/boogiebot.git`
 4. Install dependencies: Cd to project root and: `npm install`
+5. Add an auth.json file in the project root with your bot key
+```
+{
+   "token": "xXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx"
+}
+```
 
 ## Boogie Down
 

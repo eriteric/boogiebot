@@ -8,7 +8,7 @@
         "Due to her immense intelligence, Kimmy was given a driver's license at age 3",
         "The birth of Dear Leader Kimmy was prophesied by a swallow and when she was born in a secret military cabin high on Mount Paektu it was signalled by a double rainbow over the mountain and a new star in the sky.",
         "Due to her immense intelligence, Kimmy began walking at 3 weeks old and it's said she could command a room with a thundering speech by 8 weeks of age.",
-        "During university, Kimmy published 1,500 books and also composed six full operas. The operas were the best in recorded history.",
+        "During university, Kimmy published 1,500 books and composed six full operas. The operas were the best in recorded history.",
         "It is a well-known fact that Kimmy invented the bovine bread taco, or hamburger as we know it today.",
         "Did you know that meteorologists must factor in Kimmy's mood when predicting the weather?",
         "It is a false claim that Kimmy suffers from 6 personality disorders. And if you see anyone mentioning it please report them.",
@@ -18,14 +18,13 @@
     {"phrase": "cnn",
       "responses": [
         "\"Antifa is a good cause\" -Christopher Cuomo",
-        "Real Funny News",
-        "Trump is done. Done.",
-        "Impeachment any day now.",
-        "This is the beginning of the end",
-        "The walls are closing in on Trump",
-        "This is a tipping point. The day that everything changed. Same as yesterday.",
-        "Trump is in so much trouble.",
-        "Bombshell report: (insert anything)",
+        "\"Trump is done. Done!\" - CNN",
+        "\"Impeachment any day now.\" - CNN",
+        "\"This is the beginning of the end for Trump.\" - CNN",
+        "\"The walls are closing in on Trump.\" - CNN",
+        "\"This is a tipping point. The day that everything changed. Same as yesterday.\" - CNN",
+        "\"Trump is in so much trouble.\" - CNN",
+        "\"Bombshell report: (insert inconsequential detail from the story covered yesterday)\" - CNN",
         "\"Barr's answers were totally gobbeldeegook\" - CNN correspondent"
       ]
     },
@@ -70,8 +69,8 @@
     },
     {"phrase": "obama",
       "responses": [
-        "\"I continue to believe Donald Tump Trump will not be president\"",
-        "\"At least I will go down as a president\""
+        "\"I continue to believe Donald Tump Trump will not be president\" - Obama",
+        "\"At least I will go down as a president\" - Obama"
       ]
     },
     {"phrase": "pelosi",
@@ -88,6 +87,27 @@
       "responses": [
         "BJs for everyoneeeeeeeee!",
         "Fact: Angela is a stable genius."
+      ]
+    },
+    {"phrase": "miss k",
+      "responses": [
+        "Halløj",
+        "Hej du",
+        "Godaften",
+        "Halløjsa",
+        "Hva' så?",
+        "Godt at se dig",
+        "Miss K is never more than 30 miles from the sea. Fact."
+      ]
+    },
+    {"phrase": "russia",
+      "responses": [
+        "Russia is just 1 of 195 countries in the world. There are still 194 countries Trump could have possibly colluded with."
+      ]
+    },
+    {"phrase": "impeach",
+      "responses": [
+        "\"In peach foty fi\" - Mad Maxine"
       ]
     }
   ]

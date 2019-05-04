@@ -67,8 +67,12 @@ bot.on('message', msg => {
       color: hexToDec("ad1e29"),
       title: "The Common Discourse",
       fields: [
+        { name: "Schedule", value: "Random Friday nights after Pirate Radio", inline: false},
         { name: "Website", value: "https://thecommondiscourse.com", inline: false},
-        { name: "Twitter", value: "https://twitter.com/tcdtweet", inline: false}
+        { name: "Twitter", value: "https://twitter.com/tcdtweet", inline: false},
+        { name: "Periscope", value: "https://www.periscope.tv/TCDtweet/", inline: false},
+        { name: "YouTube", value: "https://www.youtube.com/channel/UCf9wP9I3SYQavmHbD0AOOFA", inline: false},
+        { name: "Twitch", value: "https://www.twitch.tv/thecommondiscourse", inline: false}
       ]
     }});
   }//tcd
@@ -78,8 +82,43 @@ bot.on('message', msg => {
       color: 3447003,
       title: "The Daily Boogie",
       fields: [
+        { name: "Schedule", value: "Mon - Thu, at a random time. Free For All on Thursdays.", inline: false},
         { name: "Website", value: "https://thecommondiscourse.com", inline: false},
-        { name: "Twitter", value: "https://twitter.com/boogiebumper", inline: false}
+        { name: "Twitter", value: "https://twitter.com/boogiebumper", inline: false},
+        { name: "Periscope", value: "https://www.pscp.tv/BoogieBumper/follow", inline: false},
+        { name: "YouTube", value: "https://www.youtube.com/channel/UC6Yaypa8Af3XEzC2dTZztcg", inline: false},
+        { name: "Podbean", value: "https://boogiebumper.podbean.com/", inline: false},
+        { name: "Twitch", value: "https://www.twitch.tv/thedailyboogie", inline: false},
+        { name: "Bitchute", value: "https://www.bitchute.com/boogiebumper/", inline: false}
+      ]
+    }});
+  }//tcd
+
+  if(msg.content.toLowerCase().includes("tsb")) {
+    msg.channel.send({embed: {
+      color: 3447003,
+      title: "The Starting Bloc",
+      fields: [
+        { name: "Schedule", value: "Early Wednesday mornings. Really early.", inline: false},
+        { name: "Website", value: "https://thecommondiscourse.com", inline: false},
+        { name: "Twitter", value: "https://twitter.com/theStartingBloc", inline: false},
+        { name: "Periscope", value: "https://periscope.tv/theStartingBloc", inline: false},
+        { name: "Podbean", value: "https://thestartingbloc.podbean.com/", inline: false}
+      ]
+    }});
+  }//tsb
+
+  if(msg.content.toLowerCase().includes("tav")) {
+    msg.channel.send({embed: {
+      color: 3447003,
+      title: "TAV Show",
+      fields: [
+        { name: "Schedule", value: "Sunday nights around 7pm", inline: false},
+        { name: "Website", value: "https://tavshow.com/", inline: false},
+        { name: "Twitter", value: "https://twitter.com/tavshow", inline: false},
+        { name: "Periscope", value: "https://www.periscope.tv/TAVshow/", inline: false},
+        { name: "Twitch", value: "https://www.twitch.tv/tavshow", inline: false},
+        { name: "YouTube", value: "https://www.youtube.com/channel/UCXvfMjTn-WYYIfFiCdFaICA", inline: false}
       ]
     }});
   }//tcd

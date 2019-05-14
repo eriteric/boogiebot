@@ -4,7 +4,7 @@
   "description": "This bot has no time for your nonsense",
   "main": "bot.js",
   "scripts": {
-    "bot": "babel-node bot.js"
+    "start": "babel-node bot.js"
   },
   "author": "boogie",
   "dependencies": {
@@ -14,10 +14,11 @@
     "libsodium-wrappers": "^0.7.4",
     "node-opus": "^0.2.9",
     "opusscript": "0.0.6",
+    "ps-node": "^0.1.6",
     "sodium": "^2.0.3",
     "underscore": "^1.9.1",
     "uws": "^9.148.0",
-    "winston": "2.4.4",
+    "winston": "^2.4.4",
     "winston-loggly-bulk": "git+https://github.com/loggly/winston-loggly-bulk.git#3.x"
   },
   "devDependencies": {

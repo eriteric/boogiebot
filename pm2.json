@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "boogiebot",
+      "exec_interpreter": "babel-node",
+      "script": "bot.js",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

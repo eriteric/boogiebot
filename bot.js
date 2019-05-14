@@ -34,19 +34,20 @@ function hexToDec(hex) {
       result * 16 + '0123456789abcdefgh'.indexOf(ch), 0);
 }
 
-
-
 // Create people object
 var people = JSON.parse(fs.readFileSync('./dictionary/people.json', 'utf8'));
 
-
 bot.on('message', msg => {
+// channel: msg.channel ID
 
   // response conditionals and format:
   function watchRespond(phrase, responses) {
     if(msg.author.bot === false) {
       if (msg.content.toLowerCase().includes(phrase)) {
-        msg.reply(randomResponse(responses));
+        console.log(msg.author.username + " - \"" + msg.content + "\" ");
+        var boogiebotsreply = randomResponse(responses);
+        msg.reply(boogiebotsreply);
+        console.log("BB: " + boogiebotsreply);
       }
     } else {
       // console.log("is a bot");
@@ -62,80 +63,6 @@ bot.on('message', msg => {
   });
 
   // Colors must be a decimal representation of a hexidecimal value. Use the hexToDec() function to convert.
-  // if(msg.content.toLowerCase().includes("tcd")) {
-  //   if(msg.content.toLowerCase().includes("http") || msg.content.toLowerCase().includes(".com")) {
-  //   } else {
-  //     msg.channel.send({embed: {
-  //       color: hexToDec("ad1e29"),
-  //       title: "The Common Discourse",
-  //       fields: [
-  //         { name: "Schedule", value: "Random Friday nights after Pirate Radio", inline: false},
-  //         { name: "Website", value: "https://thecommondiscourse.com", inline: false},
-  //         { name: "Twitter", value: "https://twitter.com/tcdtweet", inline: false},
-  //         { name: "Periscope", value: "https://www.periscope.tv/TCDtweet/", inline: false},
-  //         { name: "YouTube", value: "https://www.youtube.com/channel/UCf9wP9I3SYQavmHbD0AOOFA", inline: false},
-  //         { name: "Twitch", value: "https://www.twitch.tv/thecommondiscourse", inline: false}
-  //       ]
-  //     }});
-  //   }
-  // }//tcd
-
-  // if(msg.content.toLowerCase().includes("tdb")) {
-  //   if(msg.content.toLowerCase().includes("http") || msg.content.toLowerCase().includes(".com")) {
-  //   } else {
-  //     msg.channel.send({embed: {
-  //       color: hexToDec("2b539b"),
-  //       title: "The Daily Boogie",
-  //       fields: [
-  //         { name: "Schedule", value: "Mon - Thu, at a random time. Free For All on Thursdays.", inline: false},
-  //         { name: "Website", value: "https://thecommondiscourse.com", inline: false},
-  //         { name: "Twitter", value: "https://twitter.com/boogiebumper", inline: false},
-  //         { name: "Periscope", value: "https://www.pscp.tv/BoogieBumper/follow", inline: false},
-  //         { name: "YouTube", value: "https://www.youtube.com/channel/UC6Yaypa8Af3XEzC2dTZztcg", inline: false},
-  //         { name: "Podbean", value: "https://boogiebumper.podbean.com/", inline: false},
-  //         { name: "Twitch", value: "https://www.twitch.tv/thedailyboogie", inline: false},
-  //         { name: "Bitchute", value: "https://www.bitchute.com/boogiebumper/", inline: false},
-  //         { name: "iTunes", value: "https://podcasts.apple.com/us/podcast/the-daily-boogie/id1437957774", inline: false}
-  //       ]
-  //     }});
-  //   }
-  // }//tdb
-
-  // if(msg.content.toLowerCase().includes("tsb")) {
-  //   if(msg.content.toLowerCase().includes("http") || msg.content.toLowerCase().includes(".com")) {
-  //   } else {
-  //     msg.channel.send({embed: {
-  //       color: hexToDec("50e45e"),
-  //       title: "The Starting Bloc",
-  //       fields: [
-  //         { name: "Schedule", value: "Early Wednesday mornings. Really early.", inline: false},
-  //         { name: "Website", value: "https://thecommondiscourse.com", inline: false},
-  //         { name: "Twitter", value: "https://twitter.com/theStartingBloc", inline: false},
-  //         { name: "Periscope", value: "https://periscope.tv/theStartingBloc", inline: false},
-  //         { name: "Podbean", value: "https://thestartingbloc.podbean.com/", inline: false}
-  //       ]
-  //     }});
-  //   }
-  // }//tsb
-
-  // if(msg.content.toLowerCase().includes("tav")) {
-  //   if(msg.content.toLowerCase().includes("http") || msg.content.toLowerCase().includes(".com")) {
-  //   } else {
-  //     msg.channel.send({embed: {
-  //       color: hexToDec("ff9933"),
-  //       title: "TAV Show",
-  //       fields: [
-  //         { name: "Schedule", value: "Sunday nights around 7pm PST", inline: false},
-  //         { name: "Website", value: "https://tavshow.com/", inline: false},
-  //         { name: "Twitter", value: "https://twitter.com/tavshow", inline: false},
-  //         { name: "Periscope", value: "https://www.periscope.tv/TAVshow/", inline: false},
-  //         { name: "Podbean", value: "https://tavshow.podbean.com/", inline: false},
-  //         { name: "Twitch", value: "https://www.twitch.tv/tavshow", inline: false},
-  //         { name: "YouTube", value: "https://www.youtube.com/channel/UCXvfMjTn-WYYIfFiCdFaICA", inline: false}
-  //       ]
-  //     }});
-  //   }
-  // }//tcd
 
   // Commands
   if (msg.content.substring(0, 1) == '!') {

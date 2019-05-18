@@ -139,6 +139,14 @@ bot.on('message', msg => {
             ]
           }});
         break;
+        case 'schedule':
+          msg.channel.send({embed: {
+            color: hexToDec("ffffff"),
+            title: "Schedule",
+            fields: [
+              { name: "CDO4Jesus' WeThePeopleTV Schedule", value: "http://cdo4jesus.webstarts.com/wethepeopletv_ii.html", inline: false}
+            ]
+          }})
         // Just add any case commands if you want to..
       }
     }
